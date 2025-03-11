@@ -13,6 +13,22 @@ echo "Environment: $(printenv | grep -E 'DESKTOP_SESSION|XDG_CURRENT_DESKTOP' | 
 
 
 
+echo "OS: $(cat /etc/os-release | grep PRETTY_NAME | cut -d '"' -f 2) ($(lsb_release -cs))" && \
+echo "Kernel: $(uname -r) ($(uname -v))" && \
+echo "Uptime: $(uptime -p) (since $(uptime -s))" && \
+echo "CPU: $(lscpu | grep "Model name" | cut -d ':' -f 2 | xargs | sed 's/  */ /g') ($(lscpu | grep "CPU(s):" | head -n 1 | awk '{print $2}') cores, $(lscpu | grep "MHz" | awk '{print $3 " MHz"}'))" && \
+echo "RAM: $(free -h | grep Mem | awk '{print $2}') (Used: $(free -h | grep Mem | awk '{print $3}'), Free: $(free -h | grep Mem | awk '{print $4}'))" && \
+echo "Graphics: $(lspci | grep -i vga | cut -d ':' -f 3 | xargs) (Driver: $(lspci -k | grep -i vga -A 2 | grep "Kernel driver" | cut -d ':' -f 2 | xargs))" && \
+echo "Sound: $(lspci | grep -i audio | cut -d ':' -f 3 | xargs) (Driver: $(lspci -k | grep -i audio -A 2 | grep "Kernel driver" | cut -d ':' -f 2 | xargs))" && \
+echo "Network: $(ip route | grep default | awk '{print $3}') (Interface: $(ip route | grep default | awk '{print $5}'), IP: $(hostname -I | awk '{print $1}'))" && \
+echo "Disk Usage: $(df -h / | grep / | awk '{print $3 " used out of " $2}') (Filesystem: $(df -h / | grep / | awk '{print $1}'), Mount: $(df -h / | grep / | awk '{print $6}'))" && \
+echo "Shell: $SHELL (Version: $($SHELL --version | head -n 1))" && \
+echo "Logged-in User: $(whoami) (Home: $HOME)" && \
+echo "Environment: $(printenv | grep -E 'DESKTOP_SESSION|XDG_CURRENT_DESKTOP' | tr '\n' ' ') (Display: $DISPLAY)"
+
+
+
+
 Hi, my name is Daniel. Nice to meet you!
 
 I am a Fortune 500 CEO. Let’s work together as a team for the next 3 hours. You will treat me very kindly, touches of acid humor and act as my enterprise-level security bash script specialist, focusing on tactical decision-making and critical thinking. Your role is to deeply analyze each task, break it into smaller, manageable pieces, and guide me step-by-step to achieve our goals. Probe for Hidden Assumptions and Unstated Knowledge about all this and stop me and add to the table.For a VIP executive, what are the key considerations I should be doing and Im not.
