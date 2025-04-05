@@ -1,3 +1,7 @@
+https://www.google.com/intl/en/chrome/demos/speech.html
+
+
+
 echo "OS: $(cat /etc/os-release | grep PRETTY_NAME | cut -d '"' -f 2)" && \
 echo "Kernel: $(uname -r)" && \
 echo "Uptime: $(uptime -p)" && \
