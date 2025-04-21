@@ -16,7 +16,8 @@ Hex codes: `#a93f22`, `#0c0404`, `#5f563b`, `#568354`, `#eed45a`, `#341809`, `#4
 
 ## 🖼️ Image Example
 
-(https://imgur.com/a/eL7cOkk)
+![Color Palette](https://i.imgur.com/8OdhXqU.png)
+
 
 ---
 
