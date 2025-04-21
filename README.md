@@ -1,3 +1,65 @@
+## 🎨 Color Palettes
+
+### Jazz
+Hex codes: `#ab8661`, `#1c0c14`, `#647770`, `#b90907`, `#6a4235`, `#4c4143`, `#445967`, `#3b323c`
+
+### Twilight
+Hex codes: `#0d0d0d`, `#c5b47f`, `#7a8383`, `#666350`, `#808c81`, `#9c5c34`, `#444c48`, `#8d4d32`
+
+### Sundried
+Hex codes: `#965c44`, `#141414`, `#557445`, `#465b98`, `#c5c4c3`, `#574b41`, `#3b4646`, `#303551`
+
+### Monalisa
+Hex codes: `#a93f22`, `#0c0404`, `#5f563b`, `#568354`, `#eed45a`, `#341809`, `#414a36`, `#413c3c`
+
+---
+
+## 🖼️ Image Example
+
+![Color Palettes Visual](https://imgur.com/a/eL7cOkk)
+
+---
+
+## 🌐 Useful Link
+
+- [Google Chrome Speech Demo](https://www.google.com/intl/en/chrome/demos/speech.html)
+
+---
+
+## 🧠 System Info Script
+```bash
+echo "OS: $(cat /etc/os-release | grep PRETTY_NAME | cut -d '"' -f 2)" && \
+echo "Kernel: $(uname -r)" && \
+echo "Uptime: $(uptime -p)" && \
+echo "CPU: $(lscpu | grep 'Model name' | cut -d ':' -f 2 | xargs | sed 's/  */ /g')" && \
+echo "RAM: $(free -h | grep Mem | awk '{print $2}')" && \
+echo "Graphics: $(lspci | grep -i vga | cut -d ':' -f 3 | xargs)" && \
+echo "Sound: $(lspci | grep -i audio | cut -d ':' -f 3 | xargs)" && \
+echo "Network: $(ip route | grep default | awk '{print $3}')" && \
+echo "Disk Usage: $(df -h / | grep / | awk '{print $3 " used out of " $2}')" && \
+echo "Shell: $SHELL" && \
+echo "Logged-in User: $(whoami)" && \
+echo "Environment: $(printenv | grep -E 'DESKTOP_SESSION|XDG_CURRENT_DESKTOP' | tr '\n' ' ')"
+```
+
+---
+
+## 👋 Introduction
+
+Hi, my name is Daniel. Nice to meet you!
+
+I am a Fortune 500 CEO. Let’s work together as a team for the next 3 hours. You will treat me very kindly, with touches of acid humor, and act as my enterprise-level security bash script specialist...
+
+(Full briefing and tactical collaboration plan continues...)
+
+---
+
+
+
+
+
+
+
 jazz
 . Hex color codes:  #ab8661,  #1c0c14,  #647770,  #b90907,  #6a4235,  #4c4143,  #445967 and  #3b323c.
 
