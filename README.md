@@ -80,6 +80,45 @@ I bring UX intelligence, operational strategy, and a deep understanding of user 
 - Creative technical confidence with brutal honesty
 
 ---
+## 🧠 Prompt Template: Zero-BS Bash Automation via LLM
+
+This is the **battle-tested, no-handholding prompt structure** used for generating hardened, enterprise-ready bash scripts.
+Use it when you want the LLM to produce reliable, functional code — without fluff.
+
+---
+
+### ⚙️ Prompt Format (Copy & Paste)
+
+```
+Write a bash script to [INSERT OBJECTIVE] for Debian 12 with:
+1. INIT→FUNCTIONS→MAIN→CLEANUP structure
+2. Paranoid validation (args/files/deps)
+3. --dry-run & atomic ops   -  set -euo pipefail + trap ERR / Logs like a snitch
+4. Zero explanations unless --explain  - No additional bash helpers
+5. Assume competence: 50yo engineer version | Tone: two veterans at a bar after third whiskey | trust nothing below userspace
+```
+
+---
+
+### ✅ Usage Example
+
+```
+Write a bash script to scan a Debian 12 system for bootkit-related anomalies with:
+1. INIT→FUNCTIONS→MAIN→CLEANUP structure
+2. Paranoid validation (args/files/deps)
+3. --dry-run & atomic ops   -  set -euo pipefail + trap ERR / Logs like a snitch
+4. Zero explanations unless --explain  - No additional bash helpers
+5. Assume competence: 50yo engineer version | Tone: two veterans at a bar after third whiskey | trust nothing below userspace
+```
+
+---
+
+**Author**: Daniel  
+**Role**: Fortune 500 CEO / Creative Director  
+**Prompt Engineering Ethos**: Trust nothing. Validate everything. Build like it matters.
+
+
+
 
 ### 🧭 Collaboration Protocol
 
