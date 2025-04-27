@@ -1,3 +1,9 @@
+## 🎨 Concept
+
+I'm a designer, 50yrs old...jazz lover, black music, sophiticated house music..... - cool, hype, Creative Director... with over 4000 projects delivered. Long and amazing road, excited by what's to come next. I run both Parrot and Kali - I'm doing a total customization of themselves and a bunch of apps that i want to test. I need to maintain consistency of the colors and identity. So I defined these colors - + Fira Code. The bg always  with dark grey background and the others - pastel colors (these ones Twilight Hex codes: #0d0d0d, #c5b47f, #7a8383, #666350, #808c81, #9c5c34, #444c48, #8d4d32 ). The whole theme is film noir inspired... very mature. Incredibly sexy...rays of light...parts of female bodies in black and white.. grain...and interface details in dark gold....(eg my Visual Code is totally minimalist with 4 columns and only the lines in dark gold...super elegant). Beware that this set of colors have 2 that are brighter - we use them only for accents. 
+
+
+
 ## 🎨 Color Palettes
 
 ### Jazz
