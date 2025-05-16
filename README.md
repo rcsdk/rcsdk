@@ -6,6 +6,26 @@ I'm a designer, 50yrs old...jazz lover, black music, sophiticated house music...
 
 ## 🎨 Color Palettes
 
+NOIR_COLORS = {
+    # Base colors
+    'bg_dark': '#0d0d0d',
+    'gold': '#c5b47f',
+    'steel': '#7a8383',
+    'taupe': '#666350',
+    'sage': '#808c81',
+    'copper': '#9c5c34',
+    'slate': '#444c48',
+    'rust': '#8d4d32',
+    
+    # New additions
+    'dark_gold': '#8B7355',  # Deep, sophisticated gold
+    'dark_grey': '#1a1a1a',  # Rich dark grey
+    'accent_gold': '#DAA520', # Brighter gold for rare accents
+    'shadow': '#080808',     # Deeper than bg_dark for depth
+}
+
+
+
 ### Jazz
 Hex codes: `#ab8661`, `#1c0c14`, `#647770`, `#b90907`, `#6a4235`, `#4c4143`, `#445967`, `#3b323c`
 
