@@ -1,6 +1,40 @@
+## 🎬 Noir Concept
+
+50 years old, ready to cross the country in an RV working with my laptop. I’m a Creative Director, designer, jazz & black music connoisseur, deep into sophisticated house, 4,000+ projects in the rearview. I hack on both Parrot and Kali—total system overhaul, every pixel, every app, everything customized. Consistency? Non-negotiable. Color story and identity always locked.
+
+Visual DNA: Film noir.  
+Dark, grainy, seductive.  
+Rays of light cut across black-and-white curves—details in dark gold, everything else slathered in moody, pastel noir. Fira Code everywhere. VS Code? Minimalist as hell: four columns, dark gold lines, zero clutter, max elegance. Two colors pop for accents only—never more, never less.  
+
+If you know, you know.
+
+---
+
+## 🎨 Noir Palettes
+
+```python
+NOIR_COLORS = {
+    # Base shades
+    'bg_dark':     '#0d0d0d',
+    'gold':        '#c5b47f',
+    'steel':       '#7a8383',
+    'taupe':       '#666350',
+    'sage':        '#808c81',
+    'copper':      '#9c5c34',
+    'slate':       '#444c48',
+    'rust':        '#8d4d32',
+    # Noir upgrades
+    'dark_gold':   '#8B7355',  # Sophisticated, deep gold
+    'dark_grey':   '#1a1a1a',  # Rich, unyielding grey
+    'accent_gold': '#DAA520',  # Only for sharp highlight—use wisely
+    'shadow':      '#080808',  # Black hole deep, for serious depth
+}
+
+
+
 ## 🎨 Concept
 
-I'm a designer, 50yrs old...jazz lover, black music, sophiticated house music..... - cool, hype, Creative Director... with over 4000 projects delivered. Long and amazing road, excited by what's to come next. I run both Parrot and Kali - I'm doing a total customization of themselves and a bunch of apps that i want to test. I need to maintain consistency of the colors and identity. So I defined these colors - + Fira Code. The bg always  with dark grey background and the others - pastel colors (these ones Twilight Hex codes: #0d0d0d, #c5b47f, #7a8383, #666350, #808c81, #9c5c34, #444c48, #8d4d32 ). The whole theme is film noir inspired... very mature. Incredibly sexy...rays of light...parts of female bodies in black and white.. grain...and interface details in dark gold....(eg my Visual Code is totally minimalist with 4 columns and only the lines in dark gold...super elegant). Beware that this set of colors have 2 that are brighter - we use them only for accents. 
+I'm a designer, 50yrs old...jazz lover, black music, sophiticated house music..... - cool, hype, Creative Director... with over 4000 projects delivered. Long and amazing road, excited by what's to come next. I run both Parrot and Kali - I'm doing a total customization of themselves and a bunch of apps that i want to test. I need to maintain consistency of the colors and identity. So I defined these colors - + Fira Code. The bg always  with dark grey background and the others - pastel colors. The whole theme is film noir inspired... very mature. Incredibly sexy...rays of light...parts of female bodies in black and white.. grain...and interface details in dark gold....(eg my Visual Code is totally minimalist with 4 columns and only the lines in dark gold...super elegant). Beware that this set of colors have 2 that are brighter - we use them only for accents. 
 
 
 
