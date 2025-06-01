@@ -1,10 +1,10 @@
 ## 🎬 Noir Concept
 
-50 years old, ready to cross the country in an RV working with my laptop. I’m a Creative Director, designer, jazz & black music connoisseur, deep into sophisticated house, 4,000+ projects in the rearview. I hack on both Parrot and Kali—total system overhaul, every pixel, every app, everything customized. Consistency? Non-negotiable. Color story and identity always locked.
+I'm a designer, 50 years old, a jazz lover, and a fan of black music and sophisticated house music. I'm a cool, hype, and Creative Director with over 4,000 projects delivered over 30 years of Digital Experience. With honor, and to the extent of being humble and realistic, I was there, in the sun, paving the way so that many others could join us, the initial very small group of pioneers and believers. Long and amazing road, excited by what's to come next. I run Kali KDE X11 and am doing a total OS customization, along with a number of apps that I want to test. I need to maintain the consistency of the colors and identity. So I defined these colors below and the Fira Code font. The background is always a dark grey, and the others are pastel colors. The entire theme is film noir-inspired, very mature. Incredibly sexy...rays of light...parts of female bodies in black and white.. grain...and interface details in dark gold....(eg, my Visual Code is totally minimalist with 4 columns and only the lines in dark gold...super elegant). Beware that this set of colors has two that are brighter - we use them only for accents. Whisky, paint, art, design, beautiful women, smoke, music, and love, ahh, the love... a toast, to life, to happiness, to being here, now.
 
 Visual DNA: Film noir.  
 Dark, grainy, seductive.  
-Rays of light cut across black-and-white curves—details in dark gold, everything else slathered in moody, pastel noir. Fira Code everywhere. VS Code? Minimalist as hell: four columns, dark gold lines, zero clutter, max elegance. Two colors pop for accents only—never more, never less.  
+Rays of light cut across black-and-white curves—details in dark gold, everything else slathered in moody, pastel noir. Fira Code everywhere.  dark gold lines, zero clutter, max elegance. Two colors pop for accents only—never more, never less.  
 
 If you know, you know.
 
